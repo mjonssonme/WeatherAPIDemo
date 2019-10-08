@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>weather_api_demo</internal_name>
-        <label_cache>[{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"Created_1.current.caller_id.location.city","label":"Trigger➛Incident Record➛Caller➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.caller_id.location.city","label":"Trigger➛Incident Record➛Caller➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind","label":"1➛wind","type":"decimal","base_type":"decimal"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Weather API Demo</name>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2cd394badb1c84108b941560399619b8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Weather API Demo</sys_name>
         <sys_overrides/>
         <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
@@ -35,12 +35,12 @@
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_update_name>sys_hub_flow_2cd394badb1c84108b941560399619b8</sys_update_name>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2cd394badb1c84108b941560399619b8"/>
     <sys_variable_value action="delete_multiple" query="document_key=2cd394badb1c84108b941560399619b8"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,5699dcb2db5c84108b94156039961906"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,2fb2e432db9c84108b941560399619a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -56,10 +56,10 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>2699dcb2db5c84108b9415603996190a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <ui_id>3e06d5e4-f987-4c41-8047-8e365a1acfe9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2699dcb2db5c84108b9415603996190a"/>
@@ -108,16 +108,16 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>6a99dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:49</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>x_snc_weather_api_weather={{9063c55b-4bd6-4176-baa8-eb6981479c31.temp}}°C - {{9063c55b-4bd6-4176-baa8-eb6981479c31.weather}} and {{9063c55b-4bd6-4176-baa8-eb6981479c31.wind}} m/s</value>
+        <value>x_snc_weather_api_weather=It is {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather}}, {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp}}°C.</value>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Get Current Weather">6d4410fadb1c84108b9415603996198e</action_type>
+        <action_type display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -127,26 +127,26 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>5699dcb2db5c84108b94156039961906</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
+        <sys_id>2fb2e432db9c84108b941560399619a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
-        <ui_id>9063c55b-4bd6-4176-baa8-eb6981479c31</ui_id>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
+        <ui_id>67eaa1bc-3714-402b-85b3-1d89ed69dc4b</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=5699dcb2db5c84108b94156039961906"/>
-    <sys_element_mapping action="delete_multiple" query="id=5699dcb2db5c84108b94156039961906"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fb2e432db9c84108b941560399619a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=2fb2e432db9c84108b941560399619a4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>city</field>
-        <id>5699dcb2db5c84108b94156039961906</id>
+        <id>2fb2e432db9c84108b941560399619a4</id>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>6699dcb2db5c84108b94156039961908</sys_id>
+        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
+        <sys_id>6bb2e432db9c84108b941560399619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6d4410fadb1c84108b9415603996198e</table>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</table>
         <value>{{Created_1.current.caller_id.location.city}}</value>
     </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN9299dcb2db5c84108b94156039961902"/>
@@ -159,10 +159,10 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>9299dcb2db5c84108b94156039961902</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <trigger_definition display_value="Skapades">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -372,7 +372,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,5699dcb2db5c84108b94156039961906"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,2fb2e432db9c84108b941560399619a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -388,10 +388,10 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>2699dcb2db5c84108b9415603996190a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <ui_id>3e06d5e4-f987-4c41-8047-8e365a1acfe9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2699dcb2db5c84108b9415603996190a"/>
@@ -440,16 +440,16 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>6a99dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:49</sys_updated_on>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>x_snc_weather_api_weather={{9063c55b-4bd6-4176-baa8-eb6981479c31.temp}}°C - {{9063c55b-4bd6-4176-baa8-eb6981479c31.weather}} and {{9063c55b-4bd6-4176-baa8-eb6981479c31.wind}} m/s</value>
+        <value>x_snc_weather_api_weather=It is {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather}}, {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp}}°C.</value>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Get Current Weather">6d4410fadb1c84108b9415603996198e</action_type>
+        <action_type display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -459,26 +459,26 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>5699dcb2db5c84108b94156039961906</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
+        <sys_id>2fb2e432db9c84108b941560399619a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:21:53</sys_updated_on>
-        <ui_id>9063c55b-4bd6-4176-baa8-eb6981479c31</ui_id>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
+        <ui_id>67eaa1bc-3714-402b-85b3-1d89ed69dc4b</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=5699dcb2db5c84108b94156039961906"/>
-    <sys_element_mapping action="delete_multiple" query="id=5699dcb2db5c84108b94156039961906"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fb2e432db9c84108b941560399619a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=2fb2e432db9c84108b941560399619a4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>city</field>
-        <id>5699dcb2db5c84108b94156039961906</id>
+        <id>2fb2e432db9c84108b941560399619a4</id>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>6699dcb2db5c84108b94156039961908</sys_id>
+        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
+        <sys_id>6bb2e432db9c84108b941560399619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6d4410fadb1c84108b9415603996198e</table>
+        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</table>
         <value>{{Created_1.current.caller_id.location.city}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2cd394badb1c84108b941560399619b8^sys_idNOT IN1299dcb2db5c84108b94156039961900,56999cb2db5c84108b941560399619fa"/>

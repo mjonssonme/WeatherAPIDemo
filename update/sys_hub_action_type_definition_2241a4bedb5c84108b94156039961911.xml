@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_current_weather</internal_name>
+        <label_cache>[{"name":"{{action.city}}","label":"action➛City","type":"action","ref":""},{"name":"{{step[80b23f54-0c57-4de0-a762-781c57e87a49].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[80b23f54-0c57-4de0-a762-781c57e87a49].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].temp}}","label":"step➛Script step➛temp","type":"step","ref":""},{"name":"{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].weather}}","label":"step➛Script step➛weather","type":"step","ref":""},{"name":"{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].wind}}","label":"step➛Script step➛wind","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Current Weather</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:42:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2241a4bedb5c84108b94156039961911</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Current Weather</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2241a4bedb5c84108b94156039961911</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=2241a4bedb5c84108b94156039961911"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2241a4bedb5c84108b94156039961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2241a4bedb5c84108b94156039961911</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>38f1e0fedb5c84108b9415603996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <value/>
+        <variable display_value="">b4f1e0fedb5c84108b94156039961977</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2241a4bedb5c84108b94156039961911</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>74f1e0fedb5c84108b9415603996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <value/>
+        <variable display_value="">b4f1e0fedb5c84108b9415603996196b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2241a4bedb5c84108b94156039961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>temp</field>
+        <id>2241a4bedb5c84108b94156039961911</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>30f1e0fedb5c84108b9415603996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</table>
+        <value>{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].temp}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>weather</field>
+        <id>2241a4bedb5c84108b94156039961911</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>7cf1e0fedb5c84108b9415603996197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</table>
+        <value>{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].weather}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wind</field>
+        <id>2241a4bedb5c84108b94156039961911</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>f0f1e0fedb5c84108b9415603996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</table>
+        <value>{{step[c2b41f4b-89ad-4e08-ac84-a978dcfd2702].wind}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2241a4bedb5c84108b94156039961911^sys_idNOT INd8f1a0fedb5c84108b941560399619f2,e0f1e0fedb5c84108b94156039961919"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action>
+        <cid>80b23f54-0c57-4de0-a762-781c57e87a49</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>d8f1a0fedb5c84108b941560399619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d8f1a0fedb5c84108b941560399619f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>20f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>https://api.openweathermap.org/data/2.5/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>68f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>6cf1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>a4f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>a8f1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"content-type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e0f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>20a4103edb1c84108b941560399619ad</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e4f1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>ecf1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <value>find</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d8f1a0fedb5c84108b941560399619f2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>a8f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>24f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>60f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>e8f1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>e4f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>acf1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>6cf1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"q","value":"{{action.city}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"appid","value":"{{step[80b23f54-0c57-4de0-a762-781c57e87a49].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"units","value":"metric","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>24f1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d8f1a0fedb5c84108b941560399619f2^sys_idNOT IN28f1a0fedb5c84108b941560399619fa"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">d8f1a0fedb5c84108b941560399619f2</model>
+        <model_id>d8f1a0fedb5c84108b941560399619f2</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8f1a0fedb5c84108b941560399619f2</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>28f1a0fedb5c84108b941560399619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action>
+        <cid>c2b41f4b-89ad-4e08-ac84-a978dcfd2702</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e0f1e0fedb5c84108b94156039961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0f1e0fedb5c84108b94156039961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f1e0fedb5c84108b94156039961919</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>34f1e0fedb5c84108b94156039961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+var json = JSON.parse(inputs.responseBody);
+  
+	var temp = json.list[0].main.temp;
+  	var weather = json.list[0].weather[0].description;
+  	var wind = json.list[0].wind.speed;
+  
+  outputs.temp = temp;
+  outputs.weather = weather;
+  outputs.wind = wind;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f1e0fedb5c84108b94156039961919</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>70f1e0fedb5c84108b94156039961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0f1e0fedb5c84108b94156039961919"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>3cf1e0fedb5c84108b94156039961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responseBody</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>30f1e0fedb5c84108b94156039961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0f1e0fedb5c84108b94156039961919</table>
+        <value>{{step[80b23f54-0c57-4de0-a762-781c57e87a49].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>fcf1e0fedb5c84108b94156039961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e0f1e0fedb5c84108b94156039961919^sys_idNOT INacf1e0fedb5c84108b9415603996191c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responseBody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>acf1e0fedb5c84108b9415603996191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e0f1e0fedb5c84108b94156039961919^sys_idNOT IN2cf1e0fedb5c84108b94156039961947,64f1e0fedb5c84108b94156039961953,e8f1e0fedb5c84108b9415603996194d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>temp</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>temp</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>2cf1e0fedb5c84108b94156039961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wind</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>wind</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>64f1e0fedb5c84108b94156039961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>weather</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>weather</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e8f1e0fedb5c84108b9415603996194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=2241a4bedb5c84108b94156039961911^sys_idNOT INdcf128bedb5c84108b9415603996196c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>city</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>City</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</model>
+        <model_id>2241a4bedb5c84108b94156039961911</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>dcf128bedb5c84108b9415603996196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=2241a4bedb5c84108b94156039961911^sys_idNOT INb4f1e0fedb5c84108b9415603996196b,b4f1e0fedb5c84108b94156039961977,f8f1e0fedb5c84108b94156039961971"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>temp</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>temp</label>
+        <mandatory>false</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</model>
+        <model_id>2241a4bedb5c84108b94156039961911</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>b4f1e0fedb5c84108b9415603996196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wind</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>wind</label>
+        <mandatory>false</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</model>
+        <model_id>2241a4bedb5c84108b94156039961911</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>b4f1e0fedb5c84108b94156039961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>weather</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>weather</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</model>
+        <model_id>2241a4bedb5c84108b94156039961911</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>f8f1e0fedb5c84108b94156039961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=2241a4bedb5c84108b94156039961911^sys_idNOT INd8f1a0fedb5c84108b941560399619f2,e0f1e0fedb5c84108b94156039961919"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action>
+        <cid>80b23f54-0c57-4de0-a762-781c57e87a49</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>d8f1a0fedb5c84108b941560399619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d8f1a0fedb5c84108b941560399619f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>20f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>https://api.openweathermap.org/data/2.5/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>68f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>6cf1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>a4f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>a8f1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"content-type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e0f1e0fedb5c84108b94156039961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>20a4103edb1c84108b941560399619ad</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e4f1e0fedb5c84108b94156039961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f1a0fedb5c84108b941560399619f2</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>ecf1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <value>find</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d8f1a0fedb5c84108b941560399619f2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>a8f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>24f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>60f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>e8f1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>e4f1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>acf1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>6cf1e0fedb5c84108b94156039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"q","value":"{{action.city}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"appid","value":"{{step[80b23f54-0c57-4de0-a762-781c57e87a49].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"units","value":"metric","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>d8f1a0fedb5c84108b941560399619f2</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>24f1e0fedb5c84108b94156039961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d8f1a0fedb5c84108b941560399619f2^sys_idNOT IN28f1a0fedb5c84108b941560399619fa"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">d8f1a0fedb5c84108b941560399619f2</model>
+        <model_id>d8f1a0fedb5c84108b941560399619f2</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8f1a0fedb5c84108b941560399619f2</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>28f1a0fedb5c84108b941560399619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action>
+        <cid>c2b41f4b-89ad-4e08-ac84-a978dcfd2702</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e0f1e0fedb5c84108b94156039961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0f1e0fedb5c84108b94156039961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f1e0fedb5c84108b94156039961919</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>34f1e0fedb5c84108b94156039961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+var json = JSON.parse(inputs.responseBody);
+  
+	var temp = json.list[0].main.temp;
+  	var weather = json.list[0].weather[0].description;
+  	var wind = json.list[0].wind.speed;
+  
+  outputs.temp = temp;
+  outputs.weather = weather;
+  outputs.wind = wind;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f1e0fedb5c84108b94156039961919</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>70f1e0fedb5c84108b94156039961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0f1e0fedb5c84108b94156039961919"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>3cf1e0fedb5c84108b94156039961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responseBody</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>30f1e0fedb5c84108b94156039961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0f1e0fedb5c84108b94156039961919</table>
+        <value>{{step[80b23f54-0c57-4de0-a762-781c57e87a49].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e0f1e0fedb5c84108b94156039961919</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>fcf1e0fedb5c84108b94156039961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e0f1e0fedb5c84108b94156039961919^sys_idNOT INacf1e0fedb5c84108b9415603996191c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responseBody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>acf1e0fedb5c84108b9415603996191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e0f1e0fedb5c84108b94156039961919^sys_idNOT IN2cf1e0fedb5c84108b94156039961947,64f1e0fedb5c84108b94156039961953,e8f1e0fedb5c84108b9415603996194d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>temp</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>temp</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>2cf1e0fedb5c84108b94156039961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wind</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>wind</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>64f1e0fedb5c84108b94156039961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>weather</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Sträng">string</internal_type>
+        <label>weather</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0f1e0fedb5c84108b94156039961919</model>
+        <model_id>e0f1e0fedb5c84108b94156039961919</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e0f1e0fedb5c84108b94156039961919</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>e8f1e0fedb5c84108b9415603996194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911^sys_idNOT IN9cf1a0fedb5c84108b941560399619f0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>city</element>
+        <help/>
+        <hint/>
+        <label>City</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:45</sys_created_on>
+        <sys_id>9cf1a0fedb5c84108b941560399619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City</sys_name>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911_city_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911^sys_idNOT IN3cf1e0fedb5c84108b94156039961970,70f1e0fedb5c84108b9415603996197c,f4f1e0fedb5c84108b94156039961976"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>temp</element>
+        <help/>
+        <hint/>
+        <label>temp</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>3cf1e0fedb5c84108b94156039961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temp</sys_name>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911_temp_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wind</element>
+        <help/>
+        <hint/>
+        <label>wind</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:47</sys_created_on>
+        <sys_id>70f1e0fedb5c84108b9415603996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wind</sys_name>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911_wind_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>weather</element>
+        <help/>
+        <hint/>
+        <label>weather</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-08 12:45:46</sys_created_on>
+        <sys_id>f4f1e0fedb5c84108b94156039961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>weather</sys_name>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2241a4bedb5c84108b94156039961911_weather_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-08 12:45:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
