@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD954269a2cb773050c4e332a1089ad27d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c7a390badb1c84108b94156039961930</scope_name>
+        <serialized_content>{"FlowDesigner:FD954269a2cb773050c4e332a1089ad27d":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD954269a2cb773050c4e332a1089ad27d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6b4da5f-acdf-4eb1-a879-bf8675ff3603\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD954269a2cb773050c4e332a1089ad27d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2021-11-16 11:01:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>594269a21b7730500513cb32604bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD954269a2cb773050c4e332a1089ad27d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_update_name>sys_complex_object_594269a21b7730500513cb32604bcb7d</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:01:32</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -2,32 +2,34 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>weather_api_demo</internal_name>
-        <label_cache>[{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp","label":"1➛temp","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"Created_1.current.caller_id.location.city","label":"Trigger➛Incident Record➛Caller➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
-        <latest_snapshot>db35e4b21b500810719263913d4bcb0a</latest_snapshot>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{}},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.table_name","label":"4➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.record","label":"4➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.caller_id.location.city","label":"Trigger➛Incident Record➛Caller➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp","label":"1➛temp","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf4f12962d2773050087741923a84ec54","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"c6b4da5f-acdf-4eb1-a879-bf8675ff3603"}},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"fc7717bb-b47c-4b89-b3eb-4736523af6c3"}},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather_response","label":"1➛Weather Response","reference_display":"Weather Response","type":"object","base_type":"object","attributes":{"sourceId":"b26fc797-323d-4ad1-9acd-6f8d7f18593f","uiTypeLabel":"Object","co_type_name":"FD78f129620a773050de14e39ebff1d556","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b2d1f0e6-39ef-461d-a3a0-edcb8e1d01b6","uiType":"object","uiUniqueId":"94f649ce-b199-4410-8299-4ea4a86675a5"}},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item","label":"2➛list_object","reference_display":"list_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather_response.list","label":"1➛Weather Response➛list","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"ae178909-98de-4e46-9b4a-59eb16e175ca.item","label":"3➛weather_object","reference_display":"weather_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.weather","label":"2➛list_object➛weather","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"7cfbca97-5274-489b-bce1-99fd94315ebf.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cfbca97-5274-489b-bce1-99fd94315ebf.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cfbca97-5274-489b-bce1-99fd94315ebf.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7cfbca97-5274-489b-bce1-99fd94315ebf.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.temp","label":"2➛list_object➛main➛temp","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.humidity","label":"2➛list_object➛main➛humidity","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.pressure","label":"2➛list_object➛main➛pressure","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.wind.speed","label":"2➛list_object➛wind➛speed","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5c4dc662-baab-414c-b11d-90ff765bd39f.item.wind.deg","label":"2➛list_object➛wind➛deg","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>db35e4b21b500810719263913d4bcb0a</master_snapshot>
         <name>Weather API Demo</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id>df35e4b21b500810719263913d4bcb4e</remote_trigger_id>
         <run_as>user</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 11:44:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2cd394badb1c84108b941560399619b8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Weather API Demo</sys_name>
         <sys_overrides/>
         <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
@@ -35,13 +37,13 @@
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_update_name>sys_hub_flow_2cd394badb1c84108b941560399619b8</sys_update_name>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2cd394badb1c84108b941560399619b8"/>
     <sys_variable_value action="delete_multiple" query="document_key=2cd394badb1c84108b941560399619b8"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition table="incident">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <name/>
@@ -49,6 +51,7 @@
         <on_insert>true</on_insert>
         <on_update>false</on_update>
         <run_flow_in>background</run_flow_in>
+        <run_on_extended/>
         <run_when_setting>both</run_when_setting>
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
@@ -58,122 +61,38 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df35e4b21b500810719263913d4bcb4e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:36</sys_updated_on>
         <table>incident</table>
     </sys_flow_record_trigger>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,2fb2e432db9c84108b941560399619a4"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Weather API Demo">2cd394badb1c84108b941560399619b8</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"78e329a61b7730500513cb32604bcb55","name":"trigger_runner","type":"java.util.HashMap"}</data>
+        <identifier>2cd394badb1c84108b941560399619b8</identifier>
+        <runner>FDTriggerRunner</runner>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>2699dcb2db5c84108b9415603996190a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_created_on>2021-11-16 11:08:36</sys_created_on>
+        <sys_id>78e329a61b7730500513cb32604bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
-        <ui_id>3e06d5e4-f987-4c41-8047-8e365a1acfe9</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2699dcb2db5c84108b9415603996190a"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>2699dcb2db5c84108b9415603996190a</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_updated_on>2021-11-16 11:08:36</sys_updated_on>
+        <trigger display_value="">df35e4b21b500810719263913d4bcb4e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLSwqAMAwA0btk7Qm8ikioNrbFkkCbUkW8ux8EBbdvmA1SYRRGWpTYkoUWoLlxilIx8AmDGWeXpLB9UvXEWDIljCErtF3/8Uyqgd31ifrf8WbDK+wHYqfCZYEAAAA=</data>
+        <document_id>78e329a61b7730500513cb32604bcb55</document_id>
+        <field>trigger_runner</field>
+        <length>140</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>ea99dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2699dcb2db5c84108b9415603996190a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>a699dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>2e99dcb2db5c84108b9415603996190b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>6a99dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>x_snc_weather_api_weather=It's currently {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather}},  {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp}} °C and the wind is {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind}} m/s.</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Current Weather">2241a4bedb5c84108b94156039961911</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Weather API Demo">2cd394badb1c84108b941560399619b8</flow>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
-        <sys_id>2fb2e432db9c84108b941560399619a4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
-        <ui_id>67eaa1bc-3714-402b-85b3-1d89ed69dc4b</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2fb2e432db9c84108b941560399619a4"/>
-    <sys_element_mapping action="delete_multiple" query="id=2fb2e432db9c84108b941560399619a4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>city</field>
-        <id>2fb2e432db9c84108b941560399619a4</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:49:14</sys_created_on>
-        <sys_id>6bb2e432db9c84108b941560399619a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:49:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</table>
-        <value>{{Created_1.current.caller_id.location.city}}</value>
-    </sys_element_mapping>
+        <sys_created_on>2021-11-16 11:08:36</sys_created_on>
+        <sys_id>f4e329a61b7730500513cb32604bcb56</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2cd394badb1c84108b941560399619b8^sys_idNOT IN78e329a61b7730500513cb32604bcb55"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN9299dcb2db5c84108b94156039961902"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -184,10 +103,10 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>9299dcb2db5c84108b94156039961902</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -206,7 +125,7 @@
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -220,7 +139,7 @@
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2cd394badb1c84108b941560399619b8^sys_idNOT INa0d394badb1c84108b941560399619bc"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -239,7 +158,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -297,14 +216,14 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:17</sys_created_on>
         <sys_id>16999cb2db5c84108b941560399619fb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -320,7 +239,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -378,18 +297,18 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:09:17</sys_created_on>
         <sys_id>9e999cb2db5c84108b941560399619f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
@@ -397,79 +316,81 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN2699dcb2db5c84108b9415603996190a,2fb2e432db9c84108b941560399619a4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN03d3a5a61b7730500513cb32604bcb72,2fb2e432db9c84108b941560399619a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Weather API Demo">2cd394badb1c84108b941560399619b8</flow>
-        <order>2</order>
-        <parent_ui_id/>
+        <order>3</order>
+        <parent_ui_id>5c4dc662-baab-414c-b11d-90ff765bd39f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>2699dcb2db5c84108b9415603996190a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>03d3a5a61b7730500513cb32604bcb72</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
-        <ui_id>3e06d5e4-f987-4c41-8047-8e365a1acfe9</ui_id>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <ui_id>7cfbca97-5274-489b-bce1-99fd94315ebf</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2699dcb2db5c84108b9415603996190a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03d3a5a61b7730500513cb32604bcb72"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>2699dcb2db5c84108b9415603996190a</document_key>
+        <document_key>03d3a5a61b7730500513cb32604bcb72</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>ea99dcb2db5c84108b94156039961918</sys_id>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>4bd3a5a61b7730500513cb32604bcb73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2699dcb2db5c84108b9415603996190a"/>
+    <sys_element_mapping action="delete_multiple" query="id=03d3a5a61b7730500513cb32604bcb72"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
+        <id>03d3a5a61b7730500513cb32604bcb72</id>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>a699dcb2db5c84108b94156039961918</sys_id>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>07d3a5a61b7730500513cb32604bcb73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
+        <id>03d3a5a61b7730500513cb32604bcb72</id>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>2e99dcb2db5c84108b9415603996190b</sys_id>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>43d3a5a61b7730500513cb32604bcb73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>2699dcb2db5c84108b9415603996190a</id>
+        <id>03d3a5a61b7730500513cb32604bcb72</id>
         <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 12:09:18</sys_created_on>
-        <sys_id>6a99dcb2db5c84108b94156039961918</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>c7d3a5a61b7730500513cb32604bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>x_snc_weather_api_weather=It's currently {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather}},  {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp}} °C and the wind is {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind}} m/s.</value>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>x_snc_weather_api_weather=Temp: {{5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.temp}}
+Humidity: {{5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.humidity}}
+Pressure: {{5c4dc662-baab-414c-b11d-90ff765bd39f.item.main.pressure}}</value>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -486,10 +407,10 @@
         <sys_created_by>mattias.johnsson</sys_created_by>
         <sys_created_on>2019-10-08 12:49:14</sys_created_on>
         <sys_id>2fb2e432db9c84108b941560399619a4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:10</sys_updated_on>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
         <ui_id>67eaa1bc-3714-402b-85b3-1d89ed69dc4b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2fb2e432db9c84108b941560399619a4"/>
@@ -506,6 +427,51 @@
         <table>var__m_sys_hub_action_input_2241a4bedb5c84108b94156039961911</table>
         <value>{{Created_1.current.caller_id.location.city}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2cd394badb1c84108b941560399619b8^sys_idNOT IN4fd3a5a61b7730500513cb32604bcb69"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87d3a5a61b7730500513cb32604bcb69</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Weather API Demo">2cd394badb1c84108b941560399619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>4fd3a5a61b7730500513cb32604bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <ui_id>5c4dc662-baab-414c-b11d-90ff765bd39f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4fd3a5a61b7730500513cb32604bcb69"/>
+    <sys_element_mapping action="delete_multiple" query="id=4fd3a5a61b7730500513cb32604bcb69"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>4fd3a5a61b7730500513cb32604bcb69</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2021-11-16 11:08:29</sys_created_on>
+        <sys_id>0fd3a5a61b7730500513cb32604bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:08:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather_response.list}}</value>
+    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2cd394badb1c84108b941560399619b8^sys_idNOT IN1299dcb2db5c84108b94156039961900,56999cb2db5c84108b941560399619fa"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -520,11 +486,11 @@
         <sys_created_on>2019-10-08 12:09:18</sys_created_on>
         <sys_id>1299dcb2db5c84108b94156039961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
         <sys_policy/>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2cd394badb1c84108b941560399619b8_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 12:09:18</sys_updated_on>
         <url/>
@@ -543,11 +509,11 @@
         <sys_created_on>2019-10-08 12:09:17</sys_created_on>
         <sys_id>56999cb2db5c84108b941560399619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Weather API Demo" source="x_snc_weather_api">c7a390badb1c84108b94156039961930</sys_package>
         <sys_policy/>
         <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2cd394badb1c84108b941560399619b8_current_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 12:09:17</sys_updated_on>
         <url/>
@@ -585,10 +551,12 @@
         <label_cache>[{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp","label":"1➛temp","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.temp","label":"1➛temp","type":"decimal","base_type":"decimal"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.weather","label":"1➛weather","type":"string","base_type":"string"},{"name":"9063c55b-4bd6-4176-baa8-eb6981479c31.wind","label":"1➛wind","type":"string","base_type":"string"},{"name":"Created_1.current.caller_id.location.city","label":"Trigger➛Incident Record➛Caller➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3e06d5e4-f987-4c41-8047-8e365a1acfe9.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
         <name>Weather API Demo</name>
+        <natlang/>
         <outputs/>
         <parent_flow display_value="Weather API Demo">2cd394badb1c84108b941560399619b8</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -610,115 +578,6 @@
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=db35e4b21b500810719263913d4bcb0a"/>
     <sys_variable_value action="delete_multiple" query="document_key=db35e4b21b500810719263913d4bcb0a"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=db35e4b21b500810719263913d4bcb0a^sys_idNOT IN9735e4b21b500810719263913d4bcb27,d335e4b21b500810719263913d4bcb2d"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get Current Weather">211424321b500810719263913d4bcb96</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>2241a4bedb5c84108b94156039961911</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Weather API Demo">db35e4b21b500810719263913d4bcb0a</flow>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>9735e4b21b500810719263913d4bcb27</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <ui_id>67eaa1bc-3714-402b-85b3-1d89ed69dc4b</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=9735e4b21b500810719263913d4bcb27"/>
-    <sys_element_mapping action="delete_multiple" query="id=9735e4b21b500810719263913d4bcb27"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>city</field>
-        <id>9735e4b21b500810719263913d4bcb27</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>9b35e4b21b500810719263913d4bcb28</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_211424321b500810719263913d4bcb96</table>
-        <value>{{Created_1.current.caller_id.location.city}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Weather API Demo">db35e4b21b500810719263913d4bcb0a</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>d335e4b21b500810719263913d4bcb2d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Weather API Demo">c7a390badb1c84108b94156039961930</sys_scope>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <ui_id>3e06d5e4-f987-4c41-8047-8e365a1acfe9</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d335e4b21b500810719263913d4bcb2d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>d335e4b21b500810719263913d4bcb2d</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>d335e4b21b500810719263913d4bcb2f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d335e4b21b500810719263913d4bcb2d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>d335e4b21b500810719263913d4bcb2d</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>9f35e4b21b500810719263913d4bcb2e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>d335e4b21b500810719263913d4bcb2d</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>db35e4b21b500810719263913d4bcb2e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>d335e4b21b500810719263913d4bcb2d</id>
-        <sys_created_by>mattias.johnsson</sys_created_by>
-        <sys_created_on>2019-10-08 13:00:09</sys_created_on>
-        <sys_id>5335e4b21b500810719263913d4bcb2f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mattias.johnsson</sys_updated_by>
-        <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>x_snc_weather_api_weather=It's currently {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.weather}},  {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.temp}} °C and the wind is {{67eaa1bc-3714-402b-85b3-1d89ed69dc4b.wind}} m/s.</value>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=db35e4b21b500810719263913d4bcb0a^sys_idNOT IN5b35e4b21b500810719263913d4bcb2f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -751,7 +610,7 @@
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -765,7 +624,7 @@
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=db35e4b21b500810719263913d4bcb0a^sys_idNOT INd335e4b21b500810719263913d4bcb0b"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1012,7 +871,7 @@
         <sys_updated_by>mattias.johnsson</sys_updated_by>
         <sys_updated_on>2019-10-08 13:00:09</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d335e4b21b500810719263913d4bcb2d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1098,4 +957,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>2cd394badb1c84108b941560399619b8</sys_id>
+        <latest_snapshot>db35e4b21b500810719263913d4bcb0a</latest_snapshot>
+    </sys_hub_flow>
 </record_update>
